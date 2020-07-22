@@ -1,0 +1,4 @@
+2020-07-17 23:16:10,857 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2020-07-17 23:16:10,871 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] stopped>
+2020-07-17 23:16:10,872 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <stopping container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2020-07-17 23:16:10,872 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] stopped>

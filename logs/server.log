@@ -1,0 +1,29 @@
+2020-07-22 12:27:10,729 INFO [org.fengfei.lanproxy.server.config.ProxyConfig] - <config init serverBind 0.0.0.0, serverPort 4900, configServerBind 0.0.0.0, configServerPort 8090, configAdminUsername admin, configAdminPassword admin>
+2020-07-22 12:27:10,790 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.ProxyServerContainer]>
+2020-07-22 12:27:10,921 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy server start on port 4900>
+2020-07-22 12:27:10,924 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Checking SSL configuration properties...>
+2020-07-22 12:27:10,924 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context. KeystorePath = test.jks.>
+2020-07-22 12:27:10,924 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Loading keystore. KeystorePath = test.jks.>
+2020-07-22 12:27:10,924 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Starting with jks at file:/Users/liuhaohui/Desktop/pluto_proxy/conf/test.jks, jks normal file:/Users/liuhaohui/Desktop/pluto_proxy/conf/test.jks>
+2020-07-22 12:27:11,324 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing key manager...>
+2020-07-22 12:27:11,326 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <Initializing SSL context...>
+2020-07-22 12:27:11,332 INFO [org.fengfei.lanproxy.server.SslContextCreator] - <The SSL context has been initialized successfully.>
+2020-07-22 12:27:11,333 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <proxy ssl server start on port 4993>
+2020-07-22 12:27:11,334 INFO [org.fengfei.lanproxy.server.ProxyServerContainer] - <bind user port 8888>
+2020-07-22 12:27:11,334 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.ProxyServerContainer] started>
+2020-07-22 12:27:11,334 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <starting container [org.fengfei.lanproxy.server.config.web.WebConfigContainer]>
+2020-07-22 12:27:11,335 INFO [org.fengfei.lanproxy.server.config.web.WebConfigContainer] - <http server start on port 8090>
+2020-07-22 12:27:11,337 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add requestMiddleware org.fengfei.lanproxy.server.config.web.routes.RouteConfig$1@71423665>
+2020-07-22 12:27:11,338 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/detail>
+2020-07-22 12:27:11,339 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /config/update>
+2020-07-22 12:27:11,339 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /login>
+2020-07-22 12:27:11,339 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /logout>
+2020-07-22 12:27:11,340 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/get>
+2020-07-22 12:27:11,340 INFO [org.fengfei.lanproxy.server.config.web.ApiRoute] - <add route /metrics/getandreset>
+2020-07-22 12:27:11,340 INFO [org.fengfei.lanproxy.common.container.ContainerHelper] - <container [org.fengfei.lanproxy.server.config.web.WebConfigContainer] started>
+2020-07-22 12:27:46,162 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /login>
+2020-07-22 12:27:46,309 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /config/detail>
+2020-07-22 12:27:46,350 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /config/detail>
+2020-07-22 12:29:34,896 INFO [org.fengfei.lanproxy.server.handlers.ServerChannelHandler] - <set port => channel, 123456, [8888], [id: 0x81a0a216, L:/192.168.59.1:4900 - R:/192.168.59.143:43636]>
+2020-07-22 12:29:42,129 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /config/detail>
+2020-07-22 12:29:42,150 INFO [org.fengfei.lanproxy.server.config.web.routes.RouteConfig] - <handle request for api /config/detail>
